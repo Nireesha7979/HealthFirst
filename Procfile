@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run reddy.py
+web: sh setup.sh && streamlit run caloriecalculate.py
