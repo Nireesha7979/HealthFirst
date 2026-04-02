@@ -53,10 +53,6 @@ def inception_no_gen(image):
   return dic_maker_tuple(dic_maker(predictions))
 
 def plot_pred_final(test_imgs):
-  """
-  dis takes in {1:prob(1),2:prob(2)}
-  and plots a SUPER NORMIE PLOT to make it easier for SRM FACULTY(or they might flip out like the bunch of idiots they are)
-  """
   #test_imgs = glob(image_path_custom + '/*/*.jpeg')
   fig = make_subplots(rows = 2, cols = 2)
   pred_list = inception_no_gen(test_imgs)
